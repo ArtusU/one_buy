@@ -49,3 +49,16 @@ services:
     ports:
       - "7000:7000"
     command: /start-docs
+
+  react:
+    build:
+      context: ./one_buy/frontend
+      dockerfile: ./compose/local/Dockerfile
+    image: one_buy_local_react
+    container_name: one_buy_react
+    volumes:
+      - ./one_buy/frontend/src:/app/src
+    ports:
+      - 3000:3000
+
+
