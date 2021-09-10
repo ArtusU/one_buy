@@ -1,0 +1,7 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=one_buy
+POSTGRES_USER=wCcPNvAkEmzjYfpLuKLlZvgibKRwHcTi
+POSTGRES_PASSWORD=QIuyIO7IxMgVnaiMNt6D3ezMtVXUNnIZFj5EkYj8far1NCODBIalkME6FJT0lAv6
