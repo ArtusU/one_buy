@@ -41,7 +41,7 @@ services:
       - production_traefik:/etc/traefik/acme:z
     ports:
       - "0.0.0.0:80:80"
-      - "0.0.0.0:443:443"
+      - "0.0.0.0:443:443"==
 
   redis:
     image: redis:6
@@ -54,3 +54,4 @@ services:
       - ./.envs/.production/.django
     volumes:
       - production_postgres_data_backups:/backups:z
+==

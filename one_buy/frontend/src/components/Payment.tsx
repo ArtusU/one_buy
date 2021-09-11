@@ -1,5 +1,7 @@
+import { PayPalButtons } from "@paypal/react-paypal-js";
+
 export function Payment() {
     return (
-        <button>Pay with Paypal</button>
+        <PayPalButtons style={{ layout: "horizontal" }} />
     )
 }
